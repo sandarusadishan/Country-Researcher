@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Country/image/‫age1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #322424; 
+}
+.search-bar {
+    text-align: center;
+    border: darkcyan;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.country-card {
+    border: 1px solid #a07575;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    background-color: rgba(169, 161, 161, 0.85);
+    color: #000; 
+}
+
+.country-card:hover {
+    transform: scale(1.05);
+}
+
+.country-flag {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.country-info {
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 768px) {
+    .country-card {
+        width: 100%;
+    }
+}
